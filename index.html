@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="scroller">
+        <main id="main">
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="media/logo.png" alt="Logo">
+                    <h1>Your Landing Page Business</h1>
+                </div>
+                <ul>
+                    <li>Home</li>
+                    <li>Code Page</li>
+                </ul>
+            </nav>
+            <div class="main_content">
+                <section class="left">
+                    <h1>Importance of Landing Pages</h1>
+                    <p>Landing pages play a crucial role in online marketing and are specifically designed to capture
+                        user attention and encourage desired actions.</p>
+                    <button class="btn" data-scroll data-scroll-speed=".5">Learn More</button>
+                </section>
+                <section class="right">
+                    <img src="media/birmingham-museums-trust-sJr8LDyEf7k-unsplash.jpg" alt="" data-scroll
+                        data-scroll-speed=".6">
+                </section>
+            </div>
+        </main>
+
+        <section class="feature">
+            <h2>Online Presence</h2>
+            <h1>Key Elements of Effective Landing Pages</h1>
+            <div class="feature_cards">
+                <div class="card">
+                    <i class="fa-solid fa-globe"></i>
+                    <h1>Capture Leads</h1>
+                    <p>Attract and Capture Audience Information</p>
+                    <a href="#">Get Started</a>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <h1>Promote Products</h1>
+                    <p>Highlight Key Products and Services</p>
+                    <a href="#">Explore Now</a>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-phone"></i>
+                    <h1>Lead Generation</h1>
+                    <p>Optimize Lead Generation Strategies</p>
+                    <a href="#">Start Now</a>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-folder-open"></i>
+                    <h1>User Information</h1>
+                    <p>Effective User Information Capture</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="left">
+                <img src="media/jason-goodman-m2TU2gfqSeE-unsplash.jpg" alt="" data-scroll>
+            </div>
+            <div class="right">
+                <h1>Enhanced Marketing Efforts</h1>
+                <p>Landing pages are essential for enhancing marketing efforts and driving targeted user engagement for
+                    businesses.</p>
+            </div>
+        </section>
+
+
+        <section class="testimonial">
+            <h2>Voices of Satisfaction</h2>
+            <h1>Discover How Businesses Thrive with Building Success Solutions</h1>
+            <div class="testimonial_cards">
+                <div class="card" data-aos="fade-right">
+                    <div class="user">
+                        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="">
+                    </div>
+                    <p>Building Success has been instrumental in our growth.Their Strategic solutions and dedicated team
+                        exceeded our expectation.</p>
+                    <h2>Micheal Johnson,Business Owner</h2>
+                </div>
+                <div class="card">
+                    <div class="user">
+                        <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=1522&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="">
+                    </div>
+                    <p>Choosing this business solution was a game changer.The results speaks for themselves.Highly
+                        recommend for anyone serious about success.</p>
+                    <h2>Emily Davis,Marketing Specialist</h2>
+                </div>
+                <div class="card">
+                    <div class="user">
+                        <img src="https://images.unsplash.com/photo-1571863393474-b94c72f117fe?q=80&w=1377&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="">
+                    </div>
+                    <p>Our experience with Building Success has been outstanding.Their expertise and commitment
+                        signicantly impact our business growth.</p>
+                    <h2>Laura Millar,Customer Relations</h2>
+                </div>
+            </div>
+        </section>
+
+
+        <footer>
+            <h1>© Business All Rights Reserved.</h1>
+        </footer>
+
+
+
+
+    </div>
+
+    <script>
+        const scroll = new LocomotiveScroll({
+            el: document.querySelector('#scroller'),
+            smooth: true
+        });
+  
+    </script>
+</body>
+
+</html>
